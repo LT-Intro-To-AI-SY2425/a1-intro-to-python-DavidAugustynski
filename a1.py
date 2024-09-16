@@ -60,13 +60,14 @@ def every_other(lst: List[T]) -> List[T]:
     Returns:
         a list of every of other item in the original list starting with the first
     """
-    i=0
-    thislist=[]
-    while i<len(lst):
-        thislist.append(lst[i])
-        i+=2
+    # i=0
+    # thislist=[]
+    # while i<len(lst):
+    #     thislist.append(lst[i])
+    #     i+=2
         
-    return thislist
+    # return thislist
+    return lst[::2]
 
 
 def sum_list(lst: List[int]) -> int:
@@ -79,7 +80,11 @@ def sum_list(lst: List[int]) -> int:
     Returns:
         the sum of the passed in list
     """
-    raise NotImplementedError("sum_list")
+    sum = 0
+    for el in lst:
+         sum +=el
+
+    return sum
 
 
 def mean(lst: List[int]) -> float:
