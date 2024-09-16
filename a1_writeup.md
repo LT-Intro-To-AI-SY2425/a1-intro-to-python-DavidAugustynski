@@ -13,11 +13,14 @@ Mr. Berg will look at all your files to determine what you have completed.  If t
 ## Reflection Questions
 
 1. What is your initial thoughts about the python programming language?
-
+I think that it is a little more complex than java, but I like it because it adds cool short cuts and I feel like after I learn these
+shortcuts, python will be a lot easier and cooler.
 
 
 2. Describe some similarities and differences that you found between python and other programming languages you have used in the past?
 
-
+Java and python are very similar with most things, everything you can do in Java, you can do in python. Python and java are different in the way you do those same things, python is a lot shorter and uses less characters and lines to do something.
 
 3. What are some things that you learned through this assignment?
+
+I learned most of the basics of python and how to code in python not in Java. Basically using the shortcuts that python
