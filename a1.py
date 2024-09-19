@@ -143,6 +143,11 @@ def duck_duck_goose(lst: List[str]) -> List[str]:
     Returns:
         the resulting list after playing duck duck goose
     """
+    index = 0
+    while len(lst) > 2:
+        index = (index + 2) % len(lst)
+        lst.pop(index)
+    return lst
     
 
 
